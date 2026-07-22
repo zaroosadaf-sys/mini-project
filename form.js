@@ -1,5 +1,5 @@
 function showMessage(){
 alert("login successfull!");
-window.location.href="
+window.location.href="index.html"
 
 }

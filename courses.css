@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7fe;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+.navbar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Category Filter Buttons */
+.filter-section {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  background-color: #fff;
+  border: 2px solid #2a5298;
+  color: #2a5298;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #2a5298;
+  color: #fff;
+}
+
+/* Courses Grid */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.badge {
+  align-self: flex-start;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.badge.engineering {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.badge.medical {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.badge.commerce {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.course-card h3 {
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.course-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+.enroll-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0f172a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #2563eb;
+}
+
+.enroll-btn.enrolled {
+  background-color: #16a34a;
+}

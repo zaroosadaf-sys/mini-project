@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>LearnHub</h1>
+    <p>Explore Top Engineering, Medical, & Commerce Courses</p>
+  </header>
+
+  <main class="container">
+    <!-- Category Filter Buttons -->
+    <section class="filter-section">
+      <button class="filter-btn active" data-category="all">All Courses</button>
+      <button class="filter-btn" data-category="engineering">Engineering</button>
+      <button class="filter-btn" data-category="medical">Medical</button>
+      <button class="filter-btn" data-category="commerce">Commerce</button>
+    </section>
+
+    <!-- Course Cards Grid -->
+    <section class="courses-grid" id="coursesGrid">
+      
+      <!-- Engineering Courses -->
+      <div class="course-card" data-category="engineering">
+        <span class="badge engineering">Engineering</span>
+        <h3>Computer Science & AI</h3>
+        <p>Master software development, algorithms, data structures, and machine learning.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card" data-category="engineering">
+        <span class="badge engineering">Engineering</span>
+        <h3>Mechanical Engineering</h3>
+        <p>Learn thermodynamics, CAD design, robotics, and manufacturing systems.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+      <!-- Medical Courses -->
+      <div class="course-card" data-category="medical">
+        <span class="badge medical">Medical</span>
+        <h3>Anatomy & Physiology</h3>
+        <p>Understand the human body system, organ structures, and physiological functions.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card" data-category="medical">
+        <span class="badge medical">Medical</span>
+        <h3>Pharmacology & Medicine</h3>
+        <p>Explore drug actions, clinical therapeutics, and patient care management.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+      <!-- Commerce Courses -->
+      <div class="course-card" data-category="commerce">
+        <span class="badge commerce">Commerce</span>
+        <h3>Financial Accounting</h3>
+        <p>Learn financial statements, corporate reporting, and auditing fundamentals.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card" data-category="commerce">
+        <span class="badge commerce">Commerce</span>
+        <h3>Business & Economics</h3>
+        <p>Explore market dynamics, microeconomics, macroeconomics, and trade policies.</p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

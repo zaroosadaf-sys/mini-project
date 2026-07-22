@@ -1,0 +1,37 @@
+.container{
+background-color: rgb(108, 170, 224);
+display: flex;
+flex-direction:row ;
+
+}
+.topnav{
+background-color: rgb(51, 51, 199);
+width: 200px;
+height: 300px;
+text-align: center;
+}
+.topnav p{
+color: rgba(8, 42, 71, 0.87);
+font-size: 200px;
+font-weight: 100;
+
+
+
+}
+.secondrow{
+display:flex;
+flex-direction:row;
+
+
+}
+.div1{
+    background-color:red;
+    color:black;
+    width:100px;
+    font-family:600;
+    font-size:200px;
+
+
+
+
+}

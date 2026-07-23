@@ -4,35 +4,62 @@ body{
 }
 
 .container{
-    width:600px;
-    margin:200px;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    text-align:center;
-    box-shadow:0 0 10px gray;
+    width: 350px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: purple;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: purple;
 }
 
 input{
-    width:80%;
-    padding:35px;
-    margin:15px;
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+}
+
+.checkbox{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
 }
 
 button{
-    width:100%;
-    padding:20px;
-    background:purple;
-    color:white;
-    border:none;
-    cursor:pointer;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    background: purple;
+    color: white;
+    border: none;
 }
 
 button:hover{
-    background:darkviolet;
+    background: darkviolet;
 }
 
-#message{
-    color:red;
-    margin-top:10px;
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.social button{
+    width: 90%;
+    margin: 5px;
+    background: lightgray;
+    color: black;
+}
+
+.password{
+    margin: 8px;
 }

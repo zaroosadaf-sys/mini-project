@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="sign up.css">
 </head>
 <body>
 
@@ -12,26 +12,25 @@
 
     <h2>Create Account</h2>
 
-    <form>
+    <form onsubmit="return validateForm()">
 
-        <input type="text" placeholder="Full Name"><br>
+        <input type="text" id="name" placeholder="Full Name"><br>
 
-        <input type="email" placeholder="Email Address"><br>
+        <input type="email" id="email" placeholder="Email Address"><br>
 
-        <input type="number" placeholder="Phone Number"><br>
+        <input type="number" id="phone" placeholder="Phone Number"><br>
 
         <div class="password">
             <input type="password" id="password" placeholder="Password">
-            👁
+            <button type="button" onclick="showPassword()">Show/Hide</button>
         </div>
 
         <div class="password">
             <input type="password" id="confirm" placeholder="Confirm Password">
-            👁
         </div>
 
         <div class="checkbox">
-            <input type="checkbox">
+            <input type="checkbox" id="terms">
             I agree to the Terms & Conditions
         </div>
 
@@ -45,9 +44,9 @@
     </p>
 
     <div class="social">
-        <button>Continue with Google</button><br>
-        <button>Continue with Facebook</button><br>
-        <button>Continue with Apple</button>
+        <button type="button">Continue with Google</button><br><br>
+        <button type="button">Continue with Facebook</button><br><br>
+        <button type="button">Continue with Apple</button>
     </div>
 
 </div>
@@ -56,3 +55,5 @@
 
 </body>
 </html>
+     
+    

@@ -1,37 +1,30 @@
 .container{
-background-color: rgb(108, 170, 224);
+    width: 100%;
+background-color: white;
 display: flex;
-flex-direction:row ;
-
-}
-.topnav{
-background-color: rgb(51, 51, 199);
-width: 200px;
-height: 300px;
+align-items: center;
 text-align: center;
-}
-.topnav p{
-color: rgba(8, 42, 71, 0.87);
-font-size: 200px;
-font-weight: 100;
-
-
 
 }
-.secondrow{
-display:flex;
-flex-direction:row;
-
-
+.form{
+display: flex;
+flex-direction: column;
+padding: 50%;
+border: 2px solid blue;
+margin: 10px;
+width: 500px;
 }
-.div1{
-    background-color:red;
-    color:black;
-    width:100px;
-    font-family:600;
-    font-size:200px;
-
-
-
-
+.input{
+    margin: 20px;
+    width: 90%;
+    height: 34px;
+    padding: 10px;
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    background:blue;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 600;
 }

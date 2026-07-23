@@ -3,42 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>Login Page</title>
+
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-<<<<<<< HEAD
-    
-    <div class="container">
-        <div class="form">
-            <input type="text" id="username" required placeholder="Enter username">
-             <input type="password" id="password" required placeholder="Enter password">
-             <button type="submit" class="btn" onclick="Login()">Login</button>
-              <button type="button" class="btn" onclick="clearData()">Clear</button>
-        </div>
+
+    <div class="login-container">
+        <h1>Login</h1>
+
+        <form id="loginForm">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <button type="submit">Login</button>
+
+            <p id="message"></p>
+
+        </form>
+
+        <a href="registration.html" class="registration">Go to registration page</a>
+
     </div>
+
     <script src="form.js"></script>
-=======
-
-<h2>LOGIN</h2>
-
-<form onsubmit="showMessage(); return false;">
-
-    Username:
-    <input type="username" required>
-    <br><br>
-
-    Password:
-    <input type="password" required>
-    <br><br>
-
-    <input type="submit" value="Submit">
-    <input type="reset" value="Clear">
-
-</form>
-
-<script src="form.js"></script>
-
->>>>>>> 8c47af31a75970b87b4bef675bae8f4036b544c9
 </body>
 </html>

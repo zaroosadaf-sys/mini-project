@@ -17,5 +17,6 @@ function validateForm() {
     }
 
     alert("Sign Up Successful!");
+    window.location.href="./form.html"
     return true;
 }

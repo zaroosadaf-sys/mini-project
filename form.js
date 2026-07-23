@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let correctUsername="aqsakhan";
 let correctPassword="password1";
 
@@ -21,5 +22,10 @@ let enteredPassword=document.getElementById("password").value;
  document.getElementById("username").value ="";
  document.getElementById("password").value ="";
        alert("cleared successfull");
+=======
+function showMessage(){
+alert("login successfull!");
+window.location.href="./registration.html"
+>>>>>>> 8c47af31a75970b87b4bef675bae8f4036b544c9
 
 }

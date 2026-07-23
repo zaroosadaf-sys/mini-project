@@ -11,7 +11,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     let course = document.getElementById("course").value;
     let address = document.getElementById("address").value;
 
-    document.getElementById("result").innerHTML = `
+    document.getElementById("result").innerHTML =` 
         <h3>Registration Successful</h3>
         <p><strong>Full Name:</strong> ${name}</p>
         <p><strong>Father Name:</strong> ${father}</p>
@@ -24,4 +24,5 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     `;
 
     document.getElementById("registrationForm").reset();
+    window.location.href="./courses.html"
 });

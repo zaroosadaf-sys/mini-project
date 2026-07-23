@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const enrollButtons = document.querySelectorAll('.enroll-btn');
 
   // Category Filter Functionality
+  
   filterButtons.forEach(button => {
     button.addEventListener('click', () => {
       // Remove active class from all buttons

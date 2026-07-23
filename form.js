@@ -16,6 +16,8 @@ loginForm.addEventListener("submit", function(event) {
         message.textContent = "Login Successful!";
         message.style.color = "green";
 
+        window.location.href = "registration.html";
+
     } else {
 
         message.textContent = "Wrong Credentials!";

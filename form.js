@@ -1,12 +1,7 @@
 let correctUsername = "admin";
 let correctPassword = "12345";
 
-let loginForm = document.getElementById("loginForm");
-
-loginForm.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
+function login() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
     let message = document.getElementById("message");
@@ -24,5 +19,4 @@ loginForm.addEventListener("submit", function(event) {
         message.style.color = "red";
 
     }
-
-});
+}

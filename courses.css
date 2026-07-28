@@ -6,9 +6,6 @@
 }
 
 body {
-  background-color: #f4f7fe;
-  color: #333;
-  line-height: 1.6;
 }
 
 .navbar {
@@ -39,7 +36,7 @@ body {
 }
 
 .filter-btn {
-  background-color: #fff;
+  background-color:brown;
   border: 2px solid #2a5298;
   color: #2a5298;
   padding: 0.6rem 1.4rem;
@@ -52,7 +49,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn.active {
-  background-color: #2a5298;
+  background-color: brown;
   color: #fff;
 }
 
@@ -64,9 +61,9 @@ body {
 }
 
 .course-card {
-  background: #fff;
+  background:brown;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 20;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
@@ -90,17 +87,17 @@ body {
 }
 
 .badge.engineering {
-  background-color: #e3f2fd;
+  background-color: brown;
   color: #1976d2;
 }
 
 .badge.medical {
-  background-color: #e8f5e9;
+  background-color: brown;
   color: #388e3c;
 }
 
 .badge.commerce {
-  background-color: #fff3e0;
+  background-color:brown;
   color: #f57c00;
 }
 
@@ -116,7 +113,7 @@ body {
 }
 
 .enroll-btn {
-  width: 100%;
+  width: 200%;
   padding: 0.75rem;
   background-color: #0f172a;
   color: #fff;

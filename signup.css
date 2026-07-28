@@ -1,65 +1,40 @@
 body{
-    font-family: Arial, sans-serif;
     background: lavender;
+    font-family: Arial;
 }
 
 .container{
-    width: 350px;
-    margin: 30px auto;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding:50px;
     text-align: center;
+    border-radius: 40px;
 }
 
-.logo{
-    font-size: 24px;
+h1{
     color: purple;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
 h2{
-    color: purple;
+    color: darkblue;
 }
 
 input{
-    width: 90%;
-    padding: 10px;
-    margin: 8px;
-}
-
-.checkbox{
-    text-align: left;
-    margin-left: 15px;
-    font-size: 14px;
+    width: 100%;
+    padding: 15px;
 }
 
 button{
-    width: 95%;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
     background: purple;
     color: white;
     border: none;
 }
 
-button:hover{
-    background: darkviolet;
-}
-
 a{
-    color: blue;
     text-decoration: none;
-}
-
-.social button{
-    width: 90%;
-    margin: 5px;
-    background: lightgray;
-    color: black;
-}
-
-.password{
-    margin: 8px;
+    color: blue;
 }
